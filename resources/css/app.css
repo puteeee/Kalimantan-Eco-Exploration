@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.logo, .page-name, .username, .user-icon {
+    color: #fff;
+}
+
+.navbar-items {
+    display: flex;
+    align-items: center;
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+    .page-name {
+        display: none;
+    }
+}

@@ -1,0 +1,172 @@
+.wrapper {
+    max-width: 100%; /* Mengisi lebar layar */
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'PoppinsR';
+    background-color: white;
+    padding: 10px 0;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul li {
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.user-profile span {
+    font-size: 24px; /* Sesuaikan ukuran font sesuai preferensi Anda */
+    color: var(--primary-color); /* Gunakan warna yang sesuai */
+    margin-right: 40px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Tambahkan class 'center-content' ke container */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px; /* Sesuaikan jika diperlukan */
+    background-color: gainsboro;
+}
+
+
+/* Tambahkan style untuk 'h1' dan 'p' di dalam container */
+.center-content h1 {
+    font-size: 2rem; /* Sesuaikan ukuran font sesuai preferensi Anda */
+}
+
+.center-content p {
+    font-size: 1.5rem; /* Sesuaikan ukuran font sesuai preferensi Anda */
+    margin-top: 10px; /* Jarak antara h1 dan p */
+}
+
+/* CSS untuk container dan baris */
+.content-row-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: px; /* Jarak antara baris */
+    padding: 20px;
+}
+
+/* Gaya untuk setiap kolom */
+.column {
+    width: 48%; /* Lebar total container dipecah menjadi 48% untuk setiap kolom */
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+.row-1-column-1{
+    background-color: none;
+    text-align: start;
+    margin-left: 20px;
+}
+.row-1-column-2{
+    border-radius: 50%  0 0 50%;
+    background-color: white;
+    width: 50%;
+}
+.row-2-column-1{
+    border-radius: 0  50% 50% 0;
+    background-color: white;
+    width: 50%;
+}
+.row-3-column-2{
+    border-radius: 50%  0 0 50%;
+    background-color: white;
+    width: 50%;
+}
+
+.judul{
+    text-align: center;
+}
+
+.isi-about {
+    align-items: center;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(96, 104, 61, 1);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    padding: 30px;
+}
+
+footer .row-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 10px 0;
+}
